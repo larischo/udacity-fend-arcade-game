@@ -1,0 +1,33 @@
+body {
+    text-align: center;
+}
+
+.start, .win {
+    position: absolute;
+    display:block;
+    left: 0;
+    right: 0;
+    top: 200px;
+    width: 300px;
+    height: 250px;
+    background: white;
+    border-radius: 10px;
+    margin: auto;
+}
+
+.start p{
+    margin: 10px;
+}
+
+.win {
+    display:none;
+    height: 150px;
+}
+
+.win button{
+    padding: 3%;
+    border: 5px solid grey;
+    border-radius: 10px;
+    cursor: pointer;
+    background: white;
+}
